@@ -1,0 +1,236 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Example for Darko's KiCad learning"
+Date "2020-03-02"
+Rev "1"
+Comp "Webplease"
+Comment1 "c1"
+Comment2 "c2"
+Comment3 "c3"
+Comment4 "c4"
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5E5D7D58
+P 1800 2050
+F 0 "J?" H 1880 2042 50  0000 L CNN
+F 1 "Conn_01x10" H 1880 1951 50  0000 L CNN
+F 2 "" H 1800 2050 50  0001 C CNN
+F 3 "~" H 1800 2050 50  0001 C CNN
+	1    1800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5E5D969D
+P 2900 2000
+F 0 "J?" H 2980 1992 50  0000 L CNN
+F 1 "Conn_01x10" H 2980 1901 50  0000 L CNN
+F 2 "" H 2900 2000 50  0001 C CNN
+F 3 "~" H 2900 2000 50  0001 C CNN
+	1    2900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E5D9BF5
+P 2200 3550
+F 0 "R1" H 2270 3596 50  0000 L CNN
+F 1 "10k" H 2270 3505 50  0000 L CNN
+F 2 "" V 2130 3550 50  0001 C CNN
+F 3 "~" H 2200 3550 50  0001 C CNN
+	1    2200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E5DA19C
+P 2750 3350
+F 0 "C?" H 2865 3396 50  0000 L CNN
+F 1 "C" H 2865 3305 50  0000 L CNN
+F 2 "" H 2788 3200 50  0001 C CNN
+F 3 "~" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E5DA949
+P 3300 2450
+F 0 "C?" V 3150 2450 50  0000 C CNN
+F 1 "CP" V 3400 2300 50  0000 C CNN
+F 2 "" H 3338 2300 50  0001 C CNN
+F 3 "~" H 3300 2450 50  0001 C CNN
+	1    3300 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E5DB09A
+P 5250 2950
+F 0 "C?" H 5365 2996 50  0000 L CNN
+F 1 "CP1" H 5365 2905 50  0000 L CNN
+F 2 "" H 5250 2950 50  0001 C CNN
+F 3 "~" H 5250 2950 50  0001 C CNN
+	1    5250 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5E5DDCD7
+P 5200 2050
+F 0 "C?" H 5315 2096 50  0000 L CNN
+F 1 "CP1" H 5315 2005 50  0000 L CNN
+F 2 "" H 5200 2050 50  0001 C CNN
+F 3 "~" H 5200 2050 50  0001 C CNN
+	1    5200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5E5DDFAE
+P 4100 2700
+F 0 "C?" H 4218 2746 50  0000 L CNN
+F 1 "CP" H 4218 2655 50  0000 L CNN
+F 2 "" H 4138 2550 50  0001 C CNN
+F 3 "~" H 4100 2700 50  0001 C CNN
+	1    4100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E5DE654
+P 1850 3400
+F 0 "R2" H 1700 3400 50  0000 L CNN
+F 1 "4k7" H 1920 3355 50  0000 L CNN
+F 2 "" V 1780 3400 50  0001 C CNN
+F 3 "~" H 1850 3400 50  0001 C CNN
+	1    1850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E5DE8E7
+P 1700 4100
+F 0 "R?" H 1550 4100 50  0000 L CNN
+F 1 "R" H 1770 4055 50  0000 L CNN
+F 2 "" V 1630 4100 50  0001 C CNN
+F 3 "~" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3950 1700 3550
+Wire Wire Line
+	1700 3550 1850 3550
+Wire Wire Line
+	2200 3700 2200 4200
+Wire Wire Line
+	2200 4200 2750 4200
+Wire Wire Line
+	2750 4200 2750 3900
+Wire Wire Line
+	1850 3250 1850 3000
+Wire Wire Line
+	1850 3000 2200 3000
+Wire Wire Line
+	2200 3000 2200 3400
+Wire Wire Line
+	2750 3200 2750 2850
+Wire Wire Line
+	2750 2850 2350 2850
+Wire Wire Line
+	2350 2850 2350 2400
+Wire Wire Line
+	2350 2400 2700 2400
+Wire Wire Line
+	3150 2450 3150 2700
+Wire Wire Line
+	3150 2700 1250 2700
+Wire Wire Line
+	1250 2700 1250 2450
+Wire Wire Line
+	1250 2450 1600 2450
+Wire Wire Line
+	4100 2850 4100 3900
+Wire Wire Line
+	4100 3900 3750 3900
+Connection ~ 2750 3900
+Wire Wire Line
+	5250 2800 5250 2300
+Wire Wire Line
+	5250 2300 3900 2300
+Wire Wire Line
+	2400 1900 2700 1900
+Wire Wire Line
+	2750 3500 2750 3900
+Wire Wire Line
+	5250 3100 5250 3400
+Wire Wire Line
+	5250 3400 4700 3400
+Wire Wire Line
+	4700 3400 4700 2450
+Wire Wire Line
+	4700 2450 4100 2450
+Wire Wire Line
+	4100 2450 4100 2550
+Wire Wire Line
+	3450 2450 3650 2450
+Wire Wire Line
+	3650 2450 3650 1500
+Wire Wire Line
+	3650 1500 1400 1500
+Wire Wire Line
+	1400 1500 1400 1850
+Wire Wire Line
+	1400 1850 1600 1850
+Wire Wire Line
+	2400 950  2400 1900
+Wire Wire Line
+	3900 2300 3900 950 
+Wire Wire Line
+	3900 950  2900 950 
+$Comp
+L power:GND #PWR?
+U 1 1 5E5FEED2
+P 3750 4500
+F 0 "#PWR?" H 3750 4250 50  0001 C CNN
+F 1 "GND" H 3755 4327 50  0000 C CNN
+F 2 "" H 3750 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0001 C CNN
+	1    3750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 4500 3750 4350
+Connection ~ 3750 3900
+Wire Wire Line
+	3750 3900 2750 3900
+Wire Wire Line
+	1700 4250 1700 4350
+Wire Wire Line
+	1700 4350 3750 4350
+Connection ~ 3750 4350
+Wire Wire Line
+	3750 4350 3750 3900
+$Comp
+L power:+5V #PWR?
+U 1 1 5E6010ED
+P 2900 800
+F 0 "#PWR?" H 2900 650 50  0001 C CNN
+F 1 "+5V" H 2915 973 50  0000 C CNN
+F 2 "" H 2900 800 50  0001 C CNN
+F 3 "" H 2900 800 50  0001 C CNN
+	1    2900 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 800  2900 950 
+Connection ~ 2900 950 
+Wire Wire Line
+	2900 950  2400 950 
+$EndSCHEMATC
