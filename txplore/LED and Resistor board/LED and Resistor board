@@ -1,0 +1,14 @@
+Source,/home/darko/desk/projects/kicad/txplore/LED and Resistor board/LED and Resistor board.sch
+Kicad Rev,Eeschema 5.1.5-52549c5~86~ubuntu18.04.1
+Generated Date,Tue 07 Apr 2020 09:38:47 PM CDT
+
+Title,Learning Kicad with a simple project
+Company,Webplease
+Revision,1
+Date Issue,2020-04-05
+Comment,Darko Stefanovic
+Comment,webplease.net
+
+Reference,Value,Library,Library Ref
+D1,LED,Device,LED
+R1,R,Device,R
